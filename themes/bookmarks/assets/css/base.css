@@ -12,11 +12,11 @@ html {
 }
 
 body {
-  background-color: var(--white);
+  background-color: var(--gray-7);
   font-family: var(--defaultFontFamily);
   font-size: var(--defaultFontSize);
   font-weight: 400;
-  color: var(--gray-6);
+  color: var(--gray-1);
   line-height: 2.6rem;
 }
 
@@ -32,7 +32,7 @@ body {
   padding-top: var(--xl5);
   padding-bottom: var(--xl5);
 
-  @media (--tabletSmall) {
+  @media (--lg-above) {
     padding-top: var(--xl3);
     padding-bottom: var(--xl3);
   }
@@ -41,7 +41,7 @@ body {
 .grid-hasPaddingTop {
   padding-top: var(--xl5);
 
-  @media (--tabletSmall) {
+  @media (--lg-above) {
     padding-top: var(--xl3);
   }
 }
@@ -49,7 +49,7 @@ body {
 .grid-hasPaddingBottom {
   padding-bottom: var(--xl5);
 
-  @media (--tabletSmall) {
+  @media (--lg-above) {
     padding-bottom: var(--xl3);
   }
 }
@@ -88,7 +88,7 @@ body {
     grid-column-start: 4;
   }
 
-  @media (--tabletSmall) {
+  @media (--lg-above) {
     grid-column: auto / span 12;
 
     &.grid_col-center {
@@ -113,7 +113,7 @@ body {
     }
   }
 
-  @media (--tabletSmall) {
+  @media (--lg-above) {
     grid-column: auto / span 12;
 
     &.grid_col-center {
@@ -138,7 +138,7 @@ body {
     }
   }
 
-  @media (--tabletSmall) {
+  @media (--lg-above) {
     grid-column: auto / span 6;
 
     &.grid_col-center {
@@ -155,7 +155,7 @@ body {
     grid-column-start: 6;
   }
 
-  @media (--tabletSmall) {
+  @media (--lg-above) {
     grid-column: auto / span 6;
 
     &.grid_col-center {

@@ -1,15 +1,10 @@
 a,
 .link {
-  color: var(--blue-1);
+  color: var(--red-1);
   text-decoration: none;
   background-image: linear-gradient(currentColor, currentColor);
   background-position: 0% 100%;
   background-repeat: no-repeat;
   background-size: 0% 1px;
   transition: all 0.1s ease-in;
-
-  &:hover:not(.cta_link):not(.link-hasIcon) {
-    color: var(--blue-1);
-    background-size: 100% 1px;
-  }
 }
