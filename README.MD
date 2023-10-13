@@ -7,8 +7,8 @@ This website is built using [Hugo](https://gohugo.io), a static website editor, 
 To build it, [install Hugo](https://gohugo.io/getting-started/installing/) and [Node.js](https://nodejs.org), and then:
 
 ```sh
-git clone git@github.com:clementbiron/booksmarks.git
-cd booksmarks
+git clone git@github.com:clementbiron/bookmarks.git
+cd bookmarks
 hugo
 npm install
 ```
