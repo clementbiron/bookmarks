@@ -1,0 +1,108 @@
+.hwa{
+  @mixin wrapper;
+  background-color: var(--gray-1);
+}
+
+.hwa_content{
+  @mixin maxGridWidth 12,11;
+  padding: var(--size-12) var(--size-6);
+  margin:0 auto;
+  display:flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+  gap: var(--size-6);
+  align-items:center;
+  text-align:center;
+
+  @media (--lg-above){
+    padding-top: var(--size-15);
+    padding-bottom: var(--size-15);
+  }
+}
+
+.hwa_logo{
+  @mixin maxGridWidth 5,4;
+  width: 100%;
+
+  & > svg{
+    width: 190px;
+    height: 38px;
+    --logo-text-color: var(--gray-8);
+  }
+}
+
+.hwa_presentation{
+  @mixin maxGridWidth 5,4;
+  width: 100%;
+
+  @media (--lg-above){
+    @mixin maxGridWidth 7,6;
+  }
+}
+
+.hwa_title{
+  
+}
+
+.hwa_description{
+  margin-top:var(--size-6);
+
+  p:not(:last-child){
+    margin-bottom:var(--size-5);
+  }
+}
+
+.hwa_quote{
+  margin-top: var(--size-6);
+  @mixin maxGridWidth 5,4;
+  background-color: var(--white);
+  border-radius:1.2rem;
+  padding: var(--size-6);
+  text-align:center;
+  position: relative;
+  overflow:hidden;
+
+  @media (--lg-above){
+    margin-top: var(--size-10);
+  }
+}
+
+.hero_quote_pattern{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index:1;
+  height: 100%;
+  opacity: 0.1;
+}
+
+.hwa_quote_description{
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 3rem;
+  color: var(--gray-7);
+  z-index:2;
+  position:relative;
+}
+
+.hwa_quote_author_image{
+  width: 8.6rem;
+  height: 8.6rem;
+  margin: 0 auto;
+  margin-top: var(--size-6);
+  z-index:2;
+  position:relative;
+  
+  & > img{
+    border-radius:50%;
+  }
+}
+
+.hwa_quote_author_name{
+  font-weight:300;
+  color:var(--gray-5);
+  margin-top: var(--size-3);
+  z-index:2;
+  position:relative;
+}

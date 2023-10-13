@@ -1,0 +1,46 @@
+/* Custom properties */
+:root {
+  /* Fonts */
+  --defaultFontSize: 1.8rem;
+  --defaultFontFamily: "Source Sans 3 VF", sans-serif;
+
+  /* Grid */
+  --gridColsNumber: 12;
+  --gridColWidth: 9.1rem; 
+  --gridGuttersNumber: 11;
+  --gridGutterWidth: 2rem;
+
+  /* Colors */
+  --blue-1: #058ED9;
+  --blue-2: #0D0C1D;
+  --blue-3: #201E49;
+  --gray-1: #F5F5F5;
+  --gray-2: #E0E0E0;
+  --gray-3: #CCCCCC;
+  --gray-4: #8F8F8F;
+  --gray-5: #5C5C5C;
+  --gray-6: #3D3D3D;
+  --gray-7: #1F1F1F;
+  --gray-8: #07060E;
+  --white: #fff;
+
+  /* Sizes */
+  --size-1: .2rem;
+  --size-2: .3rem;
+  --size-3: .8rem;
+  --size-4: 1.2rem;
+  --size-5: 1.6rem;
+  --size-6: 2rem;
+  --size-7: 2.4rem;
+  --size-8: 2.8rem;
+  --size-9: 3.2rem;
+  --size-10: 4rem;
+  --size-11: 4.8rem;
+  --size-12: 5.6rem;
+  --size-13: 6.4rem;
+  --size-14: 8rem;
+  --size-15: 9.6rem;
+  --size-16: 11.2rem;
+  --size-17: 12.8rem;
+  --size-18: 14.4rem;
+}

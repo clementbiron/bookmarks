@@ -1,0 +1,12 @@
+.promises{
+  margin-top: var(--size-10);
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--size-6);
+  justify-content: center;
+
+  @media (--lg-above){
+    margin-top:var(--size-12);
+  }
+}

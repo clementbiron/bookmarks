@@ -1,0 +1,8 @@
+<footer class="footer">
+  <div class="footer_content">
+		
+  </div>
+</footer>
+
+{{ $lucideJs := resources.Get "js/lucide.js" | js.Build }}
+<script src="{{ $lucideJs.RelPermalink }}"></script>

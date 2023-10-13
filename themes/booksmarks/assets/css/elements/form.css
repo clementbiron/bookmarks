@@ -1,0 +1,39 @@
+label{
+  font-weight: 700;
+}
+
+input[type=file]{
+  all:unset;
+  display:block;
+  box-sizing:border-box;
+  width: 100%;
+  padding:var(--size-3) var(--size-4) var(--size-3) 0;
+}
+
+input[type=text],input[type=email]{
+  all:unset;
+  display:block;
+  box-sizing:border-box;
+  border:1px solid var(--gray-3);
+  border-radius:0.4rem;
+  width: 100%;
+  padding:var(--size-3) var(--size-4);
+}
+
+textarea{
+  all:unset;
+  display:block;
+  box-sizing:border-box;
+  width: 100%;
+  border:1px solid var(--gray-3);
+  border-radius:0.4rem;
+  padding:var(--size-3) var(--size-4);
+}
+
+::placeholder {
+  color:var(--gray-4);
+}
+
+.field:not(:first-child){
+  margin-top:var(--size-6);
+}

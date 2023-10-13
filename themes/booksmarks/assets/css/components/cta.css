@@ -1,0 +1,17 @@
+.cta{
+
+}
+
+.cta_link{
+
+}
+
+.cta_button{
+
+}
+.cta_baseline{
+  margin-top:var(--size-2);
+  font-size:1.4rem;
+  font-weight:300;
+  color:var(--gray-5);
+}

@@ -1,0 +1,39 @@
+{
+  "name": "booksmarks",
+  "version": "0.0.1",
+  "description": "booksmarks website",
+  "scripts": {
+    "test": "npm run lint:markdown && npm run lint:css && npm run lint:js",
+    "lint:markdown": "markdownlint *.md content/**/*.md",
+    "lint:css": "stylelint \"themes/booksmarks/assets/css/*.css\"",
+    "lint:js": "eslint themes/booksmarks/assets/js/",
+    "start:dev": "hugo serve --watch --verbose --disableFastRender"
+  },
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "jsdoc": "^4.0.0",
+    "markdownlint-cli": "^0.35.0",
+    "stylelint": "^15.10.1",
+    "stylelint-config-standard": "^34.0.0"
+  },
+  "dependencies": {
+    "lucide": "^0.261.0",
+    "minireset.css": "^0.0.7",
+    "postcss": "^8.4.23",
+    "postcss-cli": "^10.1.0",
+    "postcss-extend": "^1.0.5",
+    "postcss-import": "^15.0.1",
+    "postcss-mixins": "^9.0.4",
+    "postcss-preset-env": "^9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clementbiron/booksmarks.git"
+  },
+  "author": "Clément Biron",
+  "bugs": {
+    "url": "https://github.com/clementbiron/booksmarks/issues"
+  },
+  "homepage": "https://github.com/clementbiron/booksmarks#readme"
+}

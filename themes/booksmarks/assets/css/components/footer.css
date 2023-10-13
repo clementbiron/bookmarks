@@ -1,0 +1,36 @@
+.footer {
+  @mixin wrapper;
+  background: var(--gray-8);
+}
+
+.footer_content {
+  text-align:center;
+  padding: var(--size-6) var(--size-4);
+}
+
+.footer_copyright{
+  font-size:1.4rem;
+  font-weight:300;
+  color:var(--gray-2);
+}
+
+.footer_logo{
+  display: flex;
+}
+
+.footer_nav {
+  margin-top:var(--size-2);
+  flex-grow: 1;
+}
+
+.footer_nav_items {
+  display: flex;
+  padding-left:var(--size-4);
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: var(--size-5);
+}
+
+.footer_languageSwitcher{
+  margin-top:var(--size-2);
+}

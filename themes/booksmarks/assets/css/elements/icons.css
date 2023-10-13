@@ -1,0 +1,39 @@
+#svgdefs {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.logo {
+  width: 120px;
+  height: 24px;
+  --logo-icon-color: var(--blue-1);
+  --logo-text-color: var(--gray-1);
+}
+
+.pattern {
+  width: 3070px;
+  height: 949px;
+}
+
+.lucide {
+  width: 2rem;
+  height: 2rem;
+  stroke-width: 1px;
+  stroke: var(--colorGray600);
+}
+
+.iconWrapper {
+  display: inline-flex;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius:0.4rem;
+  background-color: var(--blue-1);
+
+  & > svg {
+    margin: auto;
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+}

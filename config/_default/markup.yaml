@@ -1,0 +1,7 @@
+goldmark:
+  renderer:
+    hardWraps: true
+    unsafe: true
+  parser:
+    attribute:
+      block: true

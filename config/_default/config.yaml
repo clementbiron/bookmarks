@@ -1,0 +1,5 @@
+baseURL: https://booksmarks.clementbiron.com
+title: booksmarks
+theme: booksmarks
+InSubdir: true
+defaultContentLanguage: fr
