@@ -1,9 +1,7 @@
 @font-face{
-    font-family: 'Source Sans 3 VF';
+    font-family: 'Sono variable';
     font-weight: 200 900;
     font-style: normal;
     font-stretch: normal;
-    src: url('../fonts/SourceSans3VF-Upright.ttf.woff2') format('woff2'),
-         url('../fonts/SourceSans3VF-Upright.ttf.woff') format('woff'),
-         url('../fonts/SourceSans3VF-Upright.ttf') format('truetype');
+    src: url('../fonts/Sono[MONO,wght].ttf') format('truetype');
 }
