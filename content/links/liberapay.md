@@ -1,6 +1,6 @@
 ---
 title: Liberapay
-url: https://liberapay.com
+source: https://liberapay.com
 taxonomies:
   tag: 
     - Open Source
