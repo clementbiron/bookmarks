@@ -1,0 +1,13 @@
+.tags{
+  display:flex;
+  gap: var(--size-3);
+}
+
+.tag{
+  
+}
+
+.tag_link{
+  color:var(--gray-3);
+  font-size:0.9em;
+}

@@ -1,4 +1,16 @@
 {{ define "main" }}
-
-  
+  <main class="wrapper">
+    <div class="flex">
+      <div>
+        {{ .Content }}
+          <div class="links">
+            {{ range ( where .Site.RegularPages "Type" "links" | first 10 ) }}
+              {{ partial "link.html" (dict "title" .Title "content" .Content "source" .Params.source "permalink" .RelPermalink "tags" .Params.tags) }}
+            {{ end }}
+          </div>
+      </div>
+    </div>
+  </main>
 {{ end }}
+
+

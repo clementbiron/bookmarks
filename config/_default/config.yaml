@@ -1,5 +1,7 @@
 baseURL: https://links.clementbiron.com
-title: bookmarks
+title: links
 theme: bookmarks
 InSubdir: true
 defaultContentLanguage: fr
+permalinks:
+  links: /:slug

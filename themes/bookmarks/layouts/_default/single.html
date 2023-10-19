@@ -1,9 +1,4 @@
 {{ define "main" }}
-
-	{{ with .Params.hero }}
-		{{ partial "hero.html" (dict "title" .title "baseline" .baseline "cta" .cta) . }}
-	{{ end }}
-	
 	{{ with .Content }}
 		<div class="single">
 			<div class="single_content">

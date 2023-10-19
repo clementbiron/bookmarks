@@ -1,0 +1,9 @@
+{{ with .tags }}
+  <ul class="tags">
+    {{ range . }}
+      <li class="tag">
+        <a class="tag_link" href="tags/{{ . | urlize }}">#{{ . | urlize }}</a>
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}

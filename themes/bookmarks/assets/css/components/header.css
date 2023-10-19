@@ -5,37 +5,13 @@
 
 .header_content {
   @mixin flex;
-  align-items: center;
-  padding: var(--size-4);
+  @mixin maxGridWidth 7,8;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+  gap:var(--size-4);
 }
 
-.header_logo{
-  display: flex;
-}
-
-.header_logo_link {
-  display: flex;
-  margin: auto;
-}
-
-.header_nav {
-  margin-left: auto;
-}
-
-.header_nav_items {
-  display: flex;
-  padding-left:var(--size-4);
-  justify-content: right;
-  flex-wrap: wrap;
-  column-gap: var(--size-5);
-}
-
-.header_nav_link{
-  display: inline-flex;
-}
-
-.header_nav_link > .iconWrapper > .linkedin {
-  stroke: var(--white);
-  fill: var(--white);
-  
+.header_baseline{
+  font-size:0.9em;
 }

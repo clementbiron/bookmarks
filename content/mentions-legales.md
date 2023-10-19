@@ -28,3 +28,4 @@ Le site est protégé par un certificat électronique, matérialisé pour la gra
 
 - Police de caractères : [Sono](https://etceteratype.co/sono)
 - Icones : [Lucide](https://lucide.dev/)
+- Génrateur de site statique : [Hugo](https://gohugo.io/)

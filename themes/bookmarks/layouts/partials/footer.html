@@ -1,6 +1,18 @@
 <footer class="footer">
   <div class="footer_content">
-		
+		<nav class="footer_nav">
+			<ul class="footer_nav_items">
+				{{ range .Site.Menus.footer }}
+					<li class="footer_nav_item ">
+						{{ $href := absLangURL .URL }}
+						{{ if eq .Identifier "mailto" }}
+							{{ $href = printf "mailto:%s" $.Site.Params.contat_email }}
+						{{ end }}
+						<a class="footer_nav_link" href="{{ $href }}">{{ .Name }}</a>
+					</li>
+				{{ end }}
+			</ul>
+		</nav>
   </div>
 </footer>
 

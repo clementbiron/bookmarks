@@ -1,12 +1,12 @@
 /* Custom properties */
 :root {
   /* Fonts */
-  --defaultFontSize: 1.8rem;
+  --defaultFontSize: 1.6rem;
   --defaultFontFamily: "Sono variable", sans-serif;
 
   /* Grid */
   --gridColsNumber: 12;
-  --gridColWidth: 9.1rem; 
+  --gridColWidth: 6rem; 
   --gridGuttersNumber: 11;
   --gridGutterWidth: 2rem;
 

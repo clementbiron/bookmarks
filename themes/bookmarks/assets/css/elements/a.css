@@ -1,14 +1,18 @@
-a,
-.link {
+a {
   color: var(--red-1);
   text-decoration: none;
   background-image: linear-gradient(currentColor, currentColor);
   background-position: 0% 100%;
   background-repeat: no-repeat;
   background-size: 0% 1px;
-  transition: all 0.1s ease-in;
+  transition: all 20ms cubic-bezier(0.550, 0.055, 0.675, 0.190);
 
   &:hover{
     color:var(--gray-5);
+    transition: all 200ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  & > .lucide {
+    stroke: var(--red-1);
   }
 }

@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <main class="wrapper">
+    <div class="flex">
+      <div class="links">
+          {{ partial "link.html" (dict "title" .Title "content" .Content "source" .Params.source "permalink" .RelPermalink "tags" .Params.tags) }}           
+      </div>
+    </div>
+  </main>
+{{ end }}
+
+
