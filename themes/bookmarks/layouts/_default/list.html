@@ -2,9 +2,9 @@
   <main class="wrapper">
     <div class="flex">
       <div>
-        <h1 class="mt-18">#{{ .Title }}</h1>
+        <h1 class="mt-18">#{{ .Title | lower | urlize }}</h1>
         <div class="links">
-          {{ range ( where .Site.RegularPages "Type" "links" | first 10 ) }}
+          {{ range (where (where .Site.RegularPages "Type" "links") "Params.tags" "intersect" (slice .Title)) }}
             {{ partial "link.html" (dict "title" .Title "content" .Content "source" .Params.source "permalink" .RelPermalink "tags" .Params.tags) }}
           {{ end }}
         </div>
