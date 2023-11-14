@@ -1,12 +1,12 @@
 {
-  "name": "bookmarks",
+  "name": "notes",
   "version": "0.0.1",
-  "description": "bookmarks website",
+  "description": "notes website",
   "scripts": {
     "test": "npm run lint:markdown && npm run lint:css && npm run lint:js",
     "lint:markdown": "markdownlint *.md content/**/*.md",
-    "lint:css": "stylelint \"themes/bookmarks/assets/css/*.css\"",
-    "lint:js": "eslint themes/bookmarks/assets/js/",
+    "lint:css": "stylelint \"themes/notes/assets/css/*.css\"",
+    "lint:js": "eslint themes/notes/assets/js/",
     "start:dev": "hugo serve --watch --verbose --disableFastRender"
   },
   "devDependencies": {
@@ -29,11 +29,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/clementbiron/bookmarks.git"
+    "url": "git+https://github.com/clementbiron/notes.git"
   },
   "author": "Clément Biron",
   "bugs": {
-    "url": "https://github.com/clementbiron/bookmarks/issues"
+    "url": "https://github.com/clementbiron/notes/issues"
   },
-  "homepage": "https://github.com/clementbiron/bookmarks#readme"
+  "homepage": "https://github.com/clementbiron/notes#readme"
 }

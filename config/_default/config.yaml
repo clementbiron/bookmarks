@@ -1,6 +1,6 @@
-baseURL: https://links.clementbiron.com
-title: links
-theme: bookmarks
+baseURL: https://notes.clementbiron.com
+title: notes
+theme: notes
 InSubdir: true
 defaultContentLanguage: fr
 permalinks:
