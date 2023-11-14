@@ -8,7 +8,7 @@
 						{{ if eq .Identifier "mailto" }}
 							{{ $href = printf "mailto:%s" $.Site.Params.contat_email }}
 						{{ end }}
-						<a class="footer_nav_link" href="{{ $href }}">{{ .Name }}</a>
+						<a class="footer_nav_link secondary" href="{{ $href }}">{{ .Name }}</a>
 					</li>
 				{{ end }}
 			</ul>

@@ -15,4 +15,12 @@ a {
   & > .lucide {
     stroke: var(--red-1);
   }
+
+  &.secondary{
+    color:var(--gray-4);
+
+    &:hover{
+      color:var(--gray-5);
+    }
+  }
 }
