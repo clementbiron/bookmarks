@@ -1,18 +1,18 @@
 button {
   @mixin resetButton;
-  background-color: var(--red-1);
+  
+  border:1px solid var(--red-1);
   display: inline-flex;
   align-items: center;
   padding: var(--size-2) var(--size-4);
-  color: var(--gray-1);
   border-radius: 1rem;
   transition: all 20ms cubic-bezier(0.550, 0.055, 0.675, 0.190);
-
   font-weight:300;
 
   &:hover:not(:disabled) {
-    background-color: var(--gray-1);
-    color: var(--gray-7);
+    background-color: var(--gray-7);
+    border:1px solid var(--gray-5);
+    color: var(--gray-5);
     transition: all 200ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
   }
 

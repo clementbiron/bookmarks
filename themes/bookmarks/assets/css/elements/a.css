@@ -17,10 +17,14 @@ a {
   }
 
   &.secondary{
-    color:var(--gray-4);
+    color:var(--gray-3);
 
     &:hover{
       color:var(--gray-5);
+    }
+
+    & > .lucide {
+      stroke: var(--gray-3);
     }
   }
 }

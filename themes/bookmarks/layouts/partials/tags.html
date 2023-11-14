@@ -2,7 +2,7 @@
   <ul class="tags">
     {{ range . }}
       <li class="tag">
-        <a class="tag_link" href="/tags/{{ . | urlize }}">#{{ . | urlize }}</a>
+        <a class="tag_link secondary" href="/tags/{{ . | urlize }}">#{{ . | urlize }}</a>
       </li>
     {{ end }}
   </ul>
