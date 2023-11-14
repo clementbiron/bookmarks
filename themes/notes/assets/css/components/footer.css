@@ -7,6 +7,8 @@
   @mixin flex;
   text-align:center;
   margin-top:var(--size-18);
+  font-size:1.4rem;
+  color: var(--gray-3);
 }
 
 .footer_nav {
@@ -18,7 +20,7 @@
   display: flex;
   justify-content: center;
   gap: var(--size-5);
-  font-size:1.4rem;
+  
 }
 
 .footer_nav_link{
