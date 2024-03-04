@@ -4,6 +4,6 @@
     <a class="link_permalink secondary" href="{{ .permalink }}"><i icon-name="link"></i></a>
   </div>
   {{ partial "tags.html" (dict "tags" .tags) }}
-  <div class="link_content">{{ .content }}</div>
-  {{ partial "cta.html" (dict "label" .source "href" .source) }}  
+  <div class="link_content">{{ .content | markdownify }}</div>
+  {{ partial "cta.html" (dict "label" .source "href" .source) }}
 </div>

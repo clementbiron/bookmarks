@@ -28,5 +28,7 @@
 }
 
 .link_content{
-
+  & p:not(:last-child){
+    margin-bottom: var(--size-4);
+  }
 }
